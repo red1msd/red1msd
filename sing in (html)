@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="remember2.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    
+  
+   <div  class="general">
+       <h1>login</h1>
+       <form action="first.php" method="POST">
+           <div  class="txt ">
+
+                  <input type="text" id="username" required name="user">
+                  <span></span>
+                  <label for="username">username</label>
+
+           </div>
+           <div class="txt">
+               <input type="password" required name="password">
+               <span></span>
+               <label for="password">password</label>
+  
+           </div>
+        <div class="pass">you forgot your password ?</div>
+        <input type="submit" value="login" id="login">
+        <div class="sign_up">
+            <div class="number">your not a nomber ? <a href="#">sign up</a></div>
+            
+        </div>
+       </form>
+       
+   </div>
+</body>
+</html>
